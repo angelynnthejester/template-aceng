@@ -92,4 +92,4 @@ function autoScroll() {
 }
 const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageWidth: 90, imageHeight: 100,}); 
 const scrollInterval = setInterval(autoScroll, 50);
-async function jawab(){await swals.fire('Kirim jawabannya<br>ke WhatsApp aku, ya! 😆');window.location = "https://api.whatsapp.com/send?phone=628988264551&text=" + pesanwhatsapp;}
+async function jawab(){await swals.fire('Kirim jawabannya<br>ke WhatsApp aku, ya! 😆');window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;}
